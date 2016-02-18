@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|Poiret+One);
+
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 200;
+	margin: 0 auto;
+	height: 100%;
+	padding: 0;
+
+}
+
+header {
+	
+	text-align: center;
+	color: #ffffff;
+	padding-bottom:50px;
+	border-bottom: 10px solid #fd9f7c;
+	line-height: 0.5;
+
+}
+ul	{
+	padding: 15px;
+	margin: 0px;
+}
+h1 {
+	font-family: 'Poiret One', arial;
+	padding-top: 50px;
+	font-size: 48px;
+	text-shadow: 1px 1px 1px #fd9f7c;
+
+}
+h2 {
+	font-family: 'Poiret One', arial;
+	text-shadow: 1px 1px #666666;
+	padding-bottom: 34px;
+
+}
+h3 {
+
+	font-size: 20px;	
+}
+li{
+	color: #ffffff;
+	display: inline;
+	font-size: 18px;
+}
+a {
+	text-decoration: none;
+}
+
+p {
+	font-size: 18px;
+	
+}
+article{
+	padding: 0px 0px 15px 0px;
+	margin-top: -10px;
+}
+
+nav {
+	  width: 100%;
+	  background-color: rgba(0,0,0,0.2);
+	  
+}
+
+
+footer {
+  background-color: #bab0a0;
+  color: #ffffff;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  position: absolute;
+  width: 100%;  
+}
+
+.sampleimg{padding-bottom: 10px;
+	
+}
+
+.hdimage{
+	background-image: url("http://a5.lscdn.net/imgs/56be4529-f77e-49e3-989f-1a71367bc67c.jpg");
+	background-size: cover;
+}
+.hdcolor{
+	background-color: #bab0a0;
+}
+
+
+.content {
+	padding: 1% 20%;
+	padding-bottom: 30px;
+	min-height: 100%;
+	position: relative;
+}
+.headerlinks{
+	color: #ccccff;
+}
+.bodylinks{
+	color: #bf775c;
+}
+.footerlinks{
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+
+@media (max-width: 500px) {
+	.sampleimg{
+		width: 100%;
+		height: auto;
+	}
+	.content{
+		padding: 1% 10%;
+	}
+
+	}
